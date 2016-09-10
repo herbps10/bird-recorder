@@ -1,0 +1,9 @@
+<%= semantic_form_for :device, :url => claim_device_path do |f| %>
+  <%= f.inputs do %>
+    <%= f.input :serial %>
+  <% end %>
+
+  <%= f.actions do %>
+    <%= f.submit %>
+  <% end %>
+<% end %>

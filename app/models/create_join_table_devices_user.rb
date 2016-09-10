@@ -1,0 +1,2 @@
+class CreateJoinTableDevicesUser < ApplicationRecord
+end
